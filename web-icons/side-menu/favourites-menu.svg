@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icn/heart-shortlist-selected</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icn/heart-shortlist-selected" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M20,7.21230833 C20,4.33357818 17.654304,2 14.7606253,2 C12.6451841,2 10.8274658,3.24912772 9.99980387,5.04418786 C9.17253418,3.24912772 7.35442368,2 5.23937474,2 C2.34569596,2 0,4.33357818 0,7.21230833 C0,8.06769351 0.211034185,8.87273896 0.578186597,9.58490956 C2.38099908,13.811886 10.0170632,19 10.0170632,19 C10.0170632,19 18.1916959,13.4478009 19.6218644,9.15019282 C19.8634946,8.55079882 20,7.89794326 20,7.21230833" id="Fill-1" fill="#0987EB"></path>
+    </g>
+</svg>

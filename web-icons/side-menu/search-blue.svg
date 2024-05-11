@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icn/search</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icn/search" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval-11" stroke="#0987eb" stroke-width="2" cx="7" cy="7" r="6"></circle>
+        <path d="M11,18 L17.5138542,11.4861458" id="Line" stroke="#0987eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(14.500000, 14.500000) scale(-1, 1) translate(-14.500000, -14.500000) "></path>
+    </g>
+</svg>

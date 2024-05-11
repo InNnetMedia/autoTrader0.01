@@ -1,0 +1,31 @@
+.cookieContainer{
+    background-color:rgb(253, 253, 253);
+    position:fixed;
+    border-radius:2px;
+    left:12px;
+    right:12px;
+    bottom:12px;
+    padding:12px;
+    color:rgb(66, 66, 66);
+    box-shadow: 0 2px 5px rgba(27, 31, 35, .2);
+    text-align: center;
+    font-family:sans-serif, Arial, Helvetica;
+    line-height:20px;
+}
+
+.btnAccept{
+    padding:10px;
+    background-color:rgb(76, 202, 255);
+    color:white;
+    border:rgb(76, 202, 255);
+    margin:10px;
+    border-radius:3px;
+    box-shadow: 0 2px 5px rgba(27, 31, 35, .2);
+}
+.btnSettings{
+    padding:9px;
+    border-color:rgb(76, 202, 255);
+    color:rgb(76, 202, 255);
+    border-radius:3px;
+    box-shadow: 0 2px 5px rgba(27, 31, 35, .2);
+}

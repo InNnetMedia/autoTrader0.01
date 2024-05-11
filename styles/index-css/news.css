@@ -1,0 +1,37 @@
+.news-advice-container{
+    margin:10px;
+}
+.article-container img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.article-container{
+    cursor:pointer;
+    display:grid;
+    padding:8px;
+    border-bottom:1px solid rgba(185, 185, 185, 0.363);
+    grid-template-columns: repeat(auto-fit, minmax(min(12.25rem,100%),1fr));
+    grid-gap:2px;
+    margin-bottom:8px;
+}
+.article-container div{
+    
+}
+.image-placeholder{
+    max-width:340px;
+    height: 150px;
+}
+
+#ad-gif{
+    width:90%;
+    margin:auto;
+    max-width: 500px;
+    object-fit:contain;
+}
+
+@media (min-width:428px){
+    .image-placeholder{
+        margin-right:20px;
+    }
+}

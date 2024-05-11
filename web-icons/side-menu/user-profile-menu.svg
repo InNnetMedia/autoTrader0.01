@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>icn/user-profile-menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icn/user-profile-menu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M10,13 C16.078125,13 18,17 18,17 L18,19 L2,19 L2,17 C2,17 3.921875,13 10,13 Z M10,11 C7.790861,11 6,8.98528137 6,6.5 C6,4.01471863 7.790861,2 10,2 C12.209139,2 14,4.01471863 14,6.5 C14,8.98528137 12.209139,11 10,11 Z" id="Combined-Shape" fill="#0987EB" fill-rule="nonzero"></path>
+    </g>
+</svg>

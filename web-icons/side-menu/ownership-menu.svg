@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>icn/ownership-menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icn/ownership-menu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M18.7652174,15.0869565 L11.6434783,7.96521739 C12.3478261,6.16521739 11.9565217,4.05217391 10.4695652,2.56521739 C8.90434783,1 6.55652174,0.686956522 4.67826087,1.54782609 L8.04347826,4.91304348 L5.69565217,7.26086957 L2.25217391,3.89565217 C1.31304348,5.77391304 1.70434783,8.12173913 3.26956522,9.68695652 C4.75652174,11.173913 6.86956522,11.5652174 8.66956522,10.8608696 L15.7913043,17.9826087 C16.1043478,18.2956522 16.573913,18.2956522 16.8869565,17.9826087 L18.6869565,16.1826087 C19.0782609,15.8695652 19.0782609,15.3217391 18.7652174,15.0869565 Z" id="Shape" fill="#0987EB" fill-rule="nonzero"></path>
+    </g>
+</svg>

@@ -1,0 +1,27 @@
+footer{
+    background-color:rgb(59, 59, 59);
+    padding-top:1px;
+}
+.footer-options-container{
+    display:flex;
+    color:white;
+    justify-content:center;
+    border-bottom:1px solid white;
+}
+footer div{
+    margin:10px;
+    line-height:7px;
+}
+
+#icon-more-than{
+    width:20px;
+}
+.car-footer-icon-arrow{
+    display:flex;
+    align-items: center;
+}
+
+footer-section{
+    background-color:red;
+    color:red;
+}

@@ -1,0 +1,22 @@
+.grid1,
+.grid2{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(10.25rem,100%),1fr));
+    grid-gap:0.5rem;
+    margin-bottom:0.5rem;
+}
+.grid1 div,
+.grid2 div{
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:5px;
+    background-color:hsla(0, 0%, 100%, .3);
+}
+.grid2{
+    display:none;
+}
+.grid-dropdown{
+    width:24px;
+}

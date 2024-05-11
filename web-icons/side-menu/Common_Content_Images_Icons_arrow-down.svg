@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>icn/nav-dropdown</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icn/nav-dropdown" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M5.43141898,7.23895138 C5.10369039,6.92008504 4.57264889,6.92038849 4.24530458,7.23962916 C3.91796027,7.55886983 3.91827179,8.07615777 4.24600038,8.39502411 L10.0067552,14 L15.7546958,8.39434594 C16.0820399,8.07510505 16.081728,7.55781711 15.7539992,7.23895099 C15.4262704,6.92008486 14.8952289,6.92038867 14.5678848,7.23962956 L10.0053628,11.6892093 L5.43141898,7.23895138 Z" id="Line" fill="#787C83" fill-rule="nonzero"></path>
+    </g>
+</svg>

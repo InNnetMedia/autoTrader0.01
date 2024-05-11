@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>icn/safty-default</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icn/safty-default" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M10,1 C7.789063,1 6,2.789063 6,5 C6,7.210938 7.789063,9 10,9 C12.210938,9 14,7.210938 14,5 C14,2.789063 12.210938,1 10,1 Z M1,4.59375 L1,7.40625 L5.5,11.90625 C6.101563,11.605469 6.792969,11.386719 7.59375,11.1875 L1,4.59375 Z M7.59375,11.1875 L15.40625,19 L18,19 L18,15 C18,15 16.101563,11 10,11 C9.101563,11 8.394531,11.085938 7.59375,11.1875 Z M5.5,11.90625 C2.898438,13.105469 2,15 2,15 L2,19 L12.59375,19 L5.5,11.90625 Z" id="Shape" fill="#787C83" fill-rule="nonzero"></path>
+    </g>
+</svg>

@@ -1,0 +1,60 @@
+.other-options-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(10.25rem,100%),1fr));
+}
+.grid-list ul{
+    list-style: none;
+    color:rgb(0, 110, 255);
+    line-height:25px;
+}
+.grid-list p{
+    color:black;
+    font-weight:700;
+    font-size:medium;
+    margin-bottom:5px;
+}
+.about-us{
+    background-color:rgb(216, 216, 216);
+    padding:10px;
+}
+
+/*
+    weekly newsletter styling
+*/
+
+.weekly-newsletter{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    background-color:rgb(9, 135, 235);
+    color:white;
+    padding:5px;
+}
+#user-newsletter-signIn{
+    width:90%;
+    height:25px;
+    border-radius:2px;
+    border:none;
+    margin-bottom:5px;
+    padding-left:15px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.weekly-newsletter a{
+    color:rgb(76, 202, 255);
+}
+#user-newsletter-signIn::placeholder{
+    margin-left:15px;
+}
+
+
+#btnSignUp{
+    width:95%;
+    padding-top:8px;
+    padding-bottom:8px;
+    background-color:rgb(76, 202, 255);
+    color:white;
+    border:none;
+    box-shadow: 0 2px 5px rgba(27, 31, 35, .2);
+    margin-top:3px;
+}

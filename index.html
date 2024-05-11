@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index-css/header.css">
+    <link rel="stylesheet" href="styles/index-css/body.css">
+    <link rel="stylesheet" href="styles/index-css/grid.css">
+    <link rel="stylesheet" href="styles//index-css/footer.css">
+    <link rel="stylesheet" href="styles/index-css/news.css">
+    <link rel="stylesheet" href="styles/side-menu-css/side.css">
+    <link rel="stylesheet" href="styles/index-css/bodyList.css">
+    <link rel="stylesheet" href="styles/index-css/cookies.css">
+    <script src="src/index-js/event.js" defer></script>
+    <script src="src/index-js/sideMenu.js" defer></script>
+    <script src="src/index-js/cookies.js" defer></script>
+    <title>AutoTrader SA</title>
+</head>
+<body>
+    <div class="header">
+        <img src="/web-icons/icons8-hamburger-menu-100.png" class="icon-ham-menu" id="icon-menu-ham">
+        <img src="/web-images/Logo.svg" class="img-logo">
+    </div>
+
+    <div class="top-menu">
+        <div class="category" name="vehicle"><img src="web-icons/icon-cars.svg" class="icon-cars">CARS</div>
+        <div class="category" name="vehicle"><img src="web-icons/icon-motorcycle.svg" class="icon-motorcycles">BIKES</div>
+        <div class="category" name="vehicle"><img src="web-icons/icon-boat.svg" class="icon-boat">LEISURE</div>
+        <div class="category" name="vehicle"><img src="web-icons/icon-comercial.svg" class="icon-comercial">COMMERCIAL</div>
+    </div>
+
+
+    <!--SideBar or SideMenu-->
+    <div id="sideMenu-container">
+        <div class="sideMenu">
+            <div class="sideMenu-header">
+                <img src="web-images/Logo.svg" class="side-logo">
+            </div>
+            
+            <div class="side-options">
+                <img src="web-icons/side-menu/buy-a-car-menu.svg" class="icon-home">
+                <span>Home</span>
+            </div>
+            <div class="side-options">
+                <img src="web-icons/side-menu/vehicle-menu.svg" class="icon-home">
+                <span>My Shortlist</span>
+            </div>
+            <div class="side-options">
+                <img src="web-icons/side-menu/buy-a-car-menu.svg" class="icon-home">
+                <span>Saved Searches</span>
+            </div>
+            <div class="side-options">
+                <img src="web-icons/side-menu/buy-a-car-menu.svg" class="icon-home">
+                <span>Buy a Car</span>
+            </div>
+            <div class="side-options">
+                <img src="web-icons/side-menu/buy-a-car-menu.svg" class="icon-home">
+                <span>Sell my Car</span>
+            </div>
+            <div class="side-options">
+                <img src="web-icons/side-menu/buy-a-car-menu.svg" class="icon-home">
+                <span>Value my Car</span>
+            </div>
+            <div class="side-options">
+                <img src="web-icons/side-menu/buy-a-car-menu.svg" class="icon-home">
+                <span>News & Reviews</span>
+            </div>
+            <div class="side-options">
+                <img src="web-icons/side-menu/buy-a-car-menu.svg" class="icon-home">
+                <span>Tools & Service</span>
+            </div>
+            <div class="side-options">
+                <img src="web-icons/side-menu/buy-a-car-menu.svg" class="icon-home">
+                <span>Settings</span>
+            </div>
+            <div class="side-options">
+                <img src="web-icons/side-menu/buy-a-car-menu.svg" class="icon-home">
+                <span>Sign In or Register</span>
+            </div>
+            <div class="side-options">
+                <img src="web-icons/side-menu/buy-a-car-menu.svg" class="icon-home">
+                <span>More</span>
+            </div>
+        </div>
+    </div>
+
+    <!--Body of the Index Page-->
+    <div class="body-container">
+        <h2>Find new and used cars</h2>
+        <div class="search">
+            <div class="placehoder-left-section">
+                <img src="web-icons/icon-cars.svg" id="car-image-placeholder">
+                Search Make, Model & Variant
+            </div>
+            <div class="placeholder-right-section">
+                <img src="web-icons/icons8-sort-down-100.png" id="icon-sort-down">
+            </div>
+        </div>
+
+        <div class="price-options">
+            <input type="radio" name="rd-pay-method">Price 
+            <input type="radio" name="rd-pay-method">Monthly Payments
+            <img src="web-icons/icons8-information-100.png" id="icon-info">
+        </div>
+
+        <!--Grid part of the page-->
+        <div class="grid1">
+            <div class="user-options">
+                <span>Min Price</span>
+                <img src="web-icons/icons8-sort-down-100.png" class="grid-dropdown">
+            </div>
+            <div class="user-options">
+                <span>Max Price</span>
+                <img src="web-icons/icons8-sort-down-100.png" class="grid-dropdown">
+            </div>
+            <div class="user-options">
+                <span>Location</span>
+                <img src="web-icons/icons8-sort-down-100.png" class="grid-dropdown">
+            </div>
+            <div class="user-options">
+                <span>Body Type</span>
+                <img src="web-icons/icons8-sort-down-100.png" class="grid-dropdown">
+            </div>
+            <div class="user-options">
+                <span>Min Year</span>
+                <img src="web-icons/icons8-sort-down-100.png" class="grid-dropdown">
+            </div>
+            <div class="user-options">
+                <span>Max Year</span>
+                <img src="web-icons/icons8-sort-down-100.png" class="grid-dropdown">
+            </div>
+            <div class="user-options">
+                <span>Max Mileage</span>
+                <img src="web-icons/icons8-sort-down-100.png" class="grid-dropdown">
+            </div>
+            <div class="user-options">
+                <span>Manual/Automatic</span>
+                <img src="web-icons/icons8-sort-down-100.png" class="grid-dropdown">
+            </div>
+            <div class="user-options">
+                <span>Colour</span>
+                <img src="web-icons/icons8-sort-down-100.png" class="grid-dropdown">
+            </div>
+            <div class="user-options">
+                <span>New/Used</span>
+                <img src="web-icons/icons8-sort-down-100.png" class="grid-dropdown">
+            </div>
+            
+        </div>
+
+        <!--More options and reset clickables-->
+        <div class="more-options">
+            <span id="car-more-options" style="cursor:pointer;"><span id="more-less-options">+ More Options</span></span>
+            <span id="car-reset" style="cursor:poinet">Reset</span>
+        </div>
+
+        <!--Grid 2-->
+        <div class="grid2">
+            <div class="user-options">
+                <span>Fuel Type</span>
+                <img src="web-icons/icons8-sort-down-100.png" class="grid-dropdown">
+            </div>
+            <div class="user-options">
+                <span>4x2 / 4x4</span>
+                <img src="web-icons/icons8-sort-down-100.png" class="grid-dropdown">
+            </div>
+            <div class="user-options">
+                <span>Engine Capacity</span>
+                <img src="web-icons/icons8-sort-down-100.png" class="grid-dropdown">
+            </div>
+            <div class="user-options">
+                <span>Seller Type</span>
+                <img src="web-icons/icons8-sort-down-100.png" class="grid-dropdown">
+            </div>
+            <div class="user-options">
+                <span>Specials</span>
+                <img src="web-icons/icons8-sort-down-100.png" class="grid-dropdown">
+            </div>
+            <div class="user-options">
+                <span>Price Rating</span>
+                <img src="web-icons/icons8-sort-down-100.png" class="grid-dropdown">
+            </div>
+        </div>
+                    
+        <!--Search Button-->
+        <div class="btn-container">
+            <button id="btn-car-search">Search <span id="number-of-cars">9 000</span> Cars</button>
+        </div>
+    </div>
+
+    <footer class="car-section-footer">
+        <div class="footer-options-container">
+            <div class="img-car-valuation-container">
+                <img src="web-icons/icon-car-valuation.svg" id="icon-car-caluation">
+            </div>
+            <div class="car-valuation-text">
+                <p>Value My Car</p>
+                <p>Get a Free Valuation</p>
+            </div>
+            <div class="car-footer-icon-arrow">
+                <img src="web-icons/icons8-more-than-100.png" id="icon-more-than">
+            </div>
+        </div>
+
+        <div class="footer-options-container">
+            <div class="img-car-valuation-container">
+                <img src="web-icons/icon-car-subscription.svg" id="icon-car-caluation">
+            </div>
+            <div class="car-valuation-text">
+                <p>Car Subscription</p>
+                <p>Pre-Qualify Now</p>
+            </div>
+            <div class="car-footer-icon-arrow">
+                <img src="web-icons/icons8-more-than-100.png" id="icon-more-than">
+            </div>
+        </div>
+
+        <div class="footer-options-container">
+            <div class="img-car-valuation-container">
+                <img src="web-icons/icon-car-valuation.svg" id="icon-car-caluation">
+            </div>
+            <div class="car-valuation-text">
+                <p>Value My Car</p>
+                <p>Get a Free Valuation</p>
+            </div>
+            <div class="car-footer-icon-arrow">
+                <img src="web-icons/icons8-more-than-100.png" id="icon-more-than">
+            </div>
+        </div>
+
+        <div class="footer-options-container">
+            <div class="img-car-valuation-container">
+                <img src="web-icons/icon-finance.svg" id="icon-car-caluation">
+            </div>
+            <div class="car-valuation-text">
+                <p>Car Finance Calculator</p>
+                <p>Calculate Now</p>
+            </div>
+            <div class="car-footer-icon-arrow">
+                <img src="web-icons/icons8-more-than-100.png" id="icon-more-than">
+            </div>
+        </div>
+    </footer>
+
+    <!--Car News and Advice-->
+    <h3>Car News & Advice</h3>
+    <div class="news-advice-container">
+
+        <div class="article-container">
+            <div class="image-placeholder">
+                <img src="web-images/CarNews1.jpeg" class="car-news-image">
+            </div>
+            <div class="text-container">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Neque at illum assumenda, ipsam iste odio molestiae, officia quos
+                </p>
+                <span style="color:blue; font-size:small">Read More</span>
+            </div>
+        </div>
+
+        <div class="article-container">
+            <div class="image-placeholder">
+                <img src="web-images/bigCar-news2.jpeg" class="car-news-image">
+            </div>
+            <div class="text-container">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Neque at illum assumenda, ipsam iste odio molestiae, officia quos
+                </p>
+                <span style="color:blue; font-size:small">Read More</span>
+            </div>
+        </div>
+
+        <div class="article-container">
+            <div class="image-placeholder">
+                <img src="web-images/fordRanger.jpg" class="car-news-image">
+            </div>
+            <div class="text-container">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Neque at illum assumenda, ipsam iste odio molestiae, officia quos
+                </p>
+                <span style="color:blue; font-size:small">Read More</span>
+            </div>
+        </div>
+        <span>More Car Reviews</span>
+    </div>
+
+    <center><img src="web-images/Audi_Banner.gif" id="ad-gif"></center>
+
+
+    <h4>Buy Cars with AutoTrader South Africa</h4>
+    
+    <div class="other-options-container">
+        
+        <div class="grid-list">
+            <ul>
+                <p>Popular Car Brands</p>
+                <li>Merceded Benz</li>
+                <li>Hyundai</li>
+                <li>Toyota</li>
+                <li>BMW</li>
+                <li>View All Brands</li>
+            </ul>
+        </div>
+
+        <div class="grid-list">
+            <ul>
+                <p>Popular Models</p>
+                <li>Ford Ranger</li>
+                <li>Hyundai i20</li>
+                <li>Renult Kiwid</li>
+                <li>Toyota Corolla</li>
+                <li>BMW i8</li>
+            </ul>
+        </div>
+
+        <div class="grid-list">
+            <ul>
+                <p>Popular Locations</p>
+                <li>Gauteng</li>
+                <li>KwaZulu Natal</li>
+                <li>Western Cape</li>
+                <li>North West</li>
+                <li>Eastern Cape</li>
+            </ul>
+        </div>
+
+        <div class="grid-list">
+            
+            <ul>
+                <p>Popular Searches</p>
+                <li>Cars For Sale</li>
+                <li>Demo Cars</li>
+                <li>Certified Used Cars</li>
+                <li>Used Cars Specials</li>
+                <li>SUV</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <!--About us section-->
+    <div class="about-us">
+        <h3>About AutoTrader</h3>
+        <p>
+            With thousands of new and used makes and models to choose from.
+            AutoTrader is South Africa's trusted marketplace
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates
+            similique a, cum corporis, qui laborum, deleniti illo voluptatibus excepturi 
+            quisquam voluptatum! In aliquid explicabo, eos similique minima sapiente ex 
+            reiciendis!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium,
+            quam consequatur delectus alias illum aspernatur obcaecati ea architecto 
+            quaerat inventore soluta, ad tenetur quia. Magnam labore asperiores magni 
+            itaque esse?
+        </p>
+        <a>
+            <span id="more-link-us"></span>
+        </a>
+        
+    </div>
+
+    <div class="weekly-newsletter">
+        <h3>Sign up to our weekly Newsletter</h3>
+        <input type="text" placeholder="Your Email" id="user-newsletter-signIn">
+        <button id="btnSignUp">Sing Up</button>
+        <p>
+            By continuing I understand and agree with AutoTrader's <a>Terms & conditions</a>
+            and <a>Privacy Policy</a>
+        </p>
+    </div>
+    
+
+    <!--Footer section-->
+
+    <footer-section>
+        <div class="footer-container">
+
+        </div>
+    </footer-section>
+
+</body>
+</html>

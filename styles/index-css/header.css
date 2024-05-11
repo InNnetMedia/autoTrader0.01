@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    background-color:white;
+    font-family:sans-serif, Arial, Helvetica;
+}
+.header{
+    background-color:white;
+    padding:10px;
+    position:fixed;
+    left:0px;
+    right:0px;
+}
+.icon-ham-menu{
+    width:23px;
+    cursor:pointer;
+}
+.img-logo{
+    width:180px;
+}
+
+/*
+    Top Menu Styling
+*/
+
+.top-menu{
+    display:flex;
+    color:white;
+    max-width: 596px;
+    position:fixed;
+    top:47px;
+    left:0px;
+    right:0px;
+}
+.top-menu div{
+    cursor:pointer;
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    background-color:#0067ca;
+    border:1px solid rgba(255, 255, 255, 0.26);
+    justify-content:center;
+    align-items:center;
+    font-size:11px;
+    padding:8px;
+}
